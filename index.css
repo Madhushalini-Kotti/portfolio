@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navigation_bar {
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navigation_bar a {
+    color: white;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+#navigation_bar header span {
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: rgba(0,0,0,0);
+}
+
+#navigation_bar a.active {
+    border: 1px solid white;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px;
+    color: #DC5F00;
+}
+
+#home {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#experience {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF6E0;
+}
+
+
+
+
+
+
+
+header span.name {
+    color: #DC5F00;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#home p {
+    letter-spacing: 1px;
+}
+
+span.name {
+    color: #DC5F00;
+    letter-spacing: 1px;
+}
+
+#about {
+    background-color: #FFF6E0;
+}
+
+#about p {
+    letter-spacing: 1px;
+}
+
+span.about {
+    color: #DC5F00;
+}
+
+span.projects {
+    color: #DC5F00;
+}
+
+#experience {
+    background-color: #FFF6E0;
+}
+
+#experience .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#experience .row > div {
+    background-color: white;
+}
+
+span.experience {
+    color: #DC5F00;
+}
+
+span.skills {
+    color: #DC5F00;
+}
+
+span.contact {
+    color: #DC5F00;
+}
+
+#contact .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.card {
+    z-index: -1;
+}
+
+#footer_bar {
+    width: 100%;
+    background-color: lightgrey;
+    position: static;
+}
+
+#home {
+    background-image: url('./assets/images/background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+#home p{
+    color: white;
+}
+
+#home h2 {
+    color: white;
+}
+
+#home a.btn-outline-secondary {
+    border-color: white;
+    color: white;
+}
+
+
+
+.downloadResume {
+    color: white;
+    background-color: #6c757d;
+    border: 1px solid white;
+}
+
+
+
+
+
+#experience .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
+.experience-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.experience-card ul {
+    text-align: justify;
+    padding-left: 20px;
+    /* Optional: Add padding for better spacing */
+}
+
+.experience-card ul li {
+    margin-bottom: 10px;
+    color: rgb(149, 147, 147);
+}
+
+
+
+
+
+
+
+/* Center the list items inside the card */
+#projects .card .d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .card.card-cover {
+    background-color: #FFF6E0;
+}
+
+#projects .card .list-unstyled {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+#projects .card .list-unstyled li {
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#projects li {
+    color: rgb(13, 110, 253);
+    font-size: medium;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+#skills .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills .col {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#skills .card-body {
+    flex-grow: 1;
+}
